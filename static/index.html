@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Student Data App</title>
+ 
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/signup.css" rel="stylesheet">
+    
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="#">Home</a></li>
+            <li role="presentation" class="active"><a href="ShowData.html">Show</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Student Data App</h3>
+      </div>
+ 
+      <div class="jumbotron">
+        <h2>Student Data Form</h2>
+	<br><br>
+        <form class="form-signin" method="post" action="http://127.0.0.1:3999/process_post">
+        <label for="inputName" class="sr-only">Student Name</label>
+        <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Name" required autofocus><br>
+
+        <label for="inputRollNumber" class="sr-only">Roll Number</label>
+        <input type="number" name="inputRollNumber" id="inputRollNumber" class="form-control" placeholder="Roll Number" required autofocus><br>
+
+        <label for="inputMathMarks" class="sr-only">Date of Birth(Format: DD-MM-YYYY)</label>
+        <input type="date" name="inputBirthDate" id="inputBirthDate" class="form-control" placeholder="Date of Birth (DD-MM-YYYY)" required pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}"><br>
+
+        <label for="inputMathMarks" class="sr-only">Mathematics Marks(in %)</label>
+        <input type="number" name="inputMathMarks" id="inputMathMarks" class="form-control" placeholder="Mathematics Marks (in %)" required><br>
+
+        <label for="inputMathMarks" class="sr-only">Chemistry Marks(in %)</label>
+        <input type="number" name="inputChemMarks" id="inputChemMarks" class="form-control" placeholder="Chemistry Marks (in %)" required><br>
+
+        <label for="inputMathMarks" class="sr-only">Physics Marks(in %)</label>
+        <input type="number" name="inputPhyMarks" id="inputPhyMarks" class="form-control" placeholder="Physics Marks (in %)" required><br>
+
+        <label for="inputMathMarks" class="sr-only">English Marks(in %)</label>
+        <input type="number" name="inputEngMarks" id="inputEngMarks" class="form-control" placeholder="English Marks (in %)" required><br>
+         
+        <button id="btnSubmit" class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+      </form>
+      </div>
+ 
+       
+ 
+      <footer class="footer">
+      </footer>
+ 
+    </div>
+  </body>
+</html>
