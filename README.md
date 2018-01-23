@@ -9,7 +9,7 @@ Firstly Acquire Node Modules using npm, then copy the files in desired location
 And run the server via terminal 
 
 # Contributing
-### Author : Neel Shah (https:bit.ly/2pSbJVN)
+### Author : Neel Shah (https://bit.ly/2pSbJVN)
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 Versioning
 
