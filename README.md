@@ -6,7 +6,19 @@ Which Takes user input via a HTML form and then generates a JSON and a CSV File
 # Getting Started
 Firstly Acquire Node Modules using npm, then copy the files in desired location
 
-And run the server via terminal 
+*run:*
+`git clone https://github.com/neelspd/Student-Data-App.git`
+
+`cd Student-Data-App-master/Project-5082017/`
+
+`npm install nice-json2csv`
+
+`npm install csv-write-stream`
+
+`npm install`
+
+`node index.js`
+ 
 
 # Contributing
 ### Author : Neel Shah (https://bit.ly/2pSbJVN)
